@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "licence": "MIT",
     "url": "https://getcomposer.org/installer",
-    "hash": "880ebdb790effa1b28e7fd2d26b18941efb9b167f336baa3d789bc226f0a05eb",
     "extract_dir": "composer",
     "depends": "php",
     "bin": "bin/composer.phar",
