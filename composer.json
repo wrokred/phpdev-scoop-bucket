@@ -3,12 +3,22 @@
     "version": "1.0.0",
     "licence": "MIT",
     "url": "https://getcomposer.org/installer",
-    "hash": "374c9f0e807dfa3bfa0cbb650edd4298bee33b139efb4d5f14fa42d96b6c8517",
+    "hash": "1e23801ab67d0b6ccfd5d51123c0d2d082f47b1ed19f09cf0ccc68b83b0eb3d4",
     "extract_dir": "composer",
-    "depends": "php",
-    "post_install": [
-      "php -r 'eval('?>'.file_get_contents('composer/installer'));'"
+    "depends": [
+      "php56"
+      ],
+    "pre_install": [
+      "php \"$dir\\installer\" --install-dir=\"$dir\" --filename=composer.phar
+      New-Item $dir\\composer.bat -type file -force -value \"@php %~dp0composer.phar\""
     ],
-    "notes": "Composer should be in the bin?"
+    "post_install": [
+    ""
+    ],
+    "bin": [
+    "composer.phar",
+    "composer.bat"
+    ],
+    "notes": "php \"$dir\""
 }
 
