@@ -10,7 +10,8 @@
       ],
     "pre_install": [
       "php \"$dir\\installer\" --install-dir=\"$dir\" --filename=composer.phar
-      New-Item $dir\\composer.bat -type file -force -value \"@php %~dp0composer.phar\""
+      New-Item $dir\\composer.bat -type file -force -value \"`@ECHO OFF
+      php %~dp0composer.phar %*\""
     ],
     "post_install": [
     ""
