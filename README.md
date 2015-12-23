@@ -5,7 +5,7 @@ Checks for PHP on local. If it's missing run:
 
 `scoop install php`
 
-`scoop bucket add https://github.com/wrokred/phpdev-scoop-bucket`
+`scoop bucket add phpdev https://github.com/wrokred/phpdev-scoop-bucket`
 
 ## Composer
 
