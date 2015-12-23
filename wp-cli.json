@@ -1,0 +1,28 @@
+{
+  "homepage": "http://wp-cli.org/",
+  "version": "1.0.0",
+  "licence": "MIT",
+  "url": "https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar",
+  "hash": "acd8a1f90610c9174158366f1c9016fe1d0f596311ca53e4d0c4d1c497c15f6a",
+  "extract_dir": "composer",
+  "depends": [
+  ],
+  "pre_install": [
+  "try {
+      php \"$dir\\installer\" --install-dir=\"$dir\" --filename=wp-cli.phar
+  New-Item $dir\\wp.bat -type file -force -value \"`@ECHO OFF
+  php %~dp0wp-cli.phar %*\"
+  }
+  catch {
+    abort 'PHP is not installed | run scoop install php'
+    }"
+  ],
+  "post_install": [
+  ""
+  ],
+  "bin": [
+  "wp-cli.phar",
+  "wp.bat"
+  ],
+  "notes": ""
+}
