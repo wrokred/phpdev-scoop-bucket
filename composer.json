@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "licence": "MIT",
   "url": "https://getcomposer.org/installer",
-  "hash": "1e23801ab67d0b6ccfd5d51123c0d2d082f47b1ed19f09cf0ccc68b83b0eb3d4",
+  "hash": "50b383348173bd454ed8d962253a85b7d194f071e3f8e7f74817512221efc569",
   "extract_dir": "composer",
   "depends": [
   ],
