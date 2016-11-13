@@ -1,6 +1,6 @@
 {
   "homepage": "http://wp-cli.org/",
-  "version": "1.0.0",
+  "version": "0.25.1",
   "licence": "MIT",
   "url": "https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar",
   "hash": "20afc72b502d072bc26e95c1e61c12554277a56eb7451df2b92a46d32393bb97",

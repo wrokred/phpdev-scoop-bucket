@@ -7,10 +7,10 @@ Checks for PHP on local. If it's missing run:
 
 `scoop bucket add phpdev https://github.com/wrokred/phpdev-scoop-bucket`
 
-## Composer
+## Composer 1.2.2
 
 `scoop install composer`
 
-## WP-CLI
+## WP-CLI 0.25.1
 
 `scoop install wp-cli`

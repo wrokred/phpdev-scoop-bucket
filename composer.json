@@ -1,8 +1,8 @@
 {
   "homepage": "https://getcomposer.org/",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "licence": "MIT",
-  "url": "https://getcomposer.org/installer",
+  "url": "https://raw.githubusercontent.com/composer/getcomposer.org/master/web/download/1.2.2/composer.phar",
   "hash": "3e6e491aebaec0fc7f33d2aec904d5f3b7eeea3a31f9b2ef36ba95db9c6e13ba",
   "extract_dir": "composer",
   "depends": [
