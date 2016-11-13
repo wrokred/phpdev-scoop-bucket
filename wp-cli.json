@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "licence": "MIT",
   "url": "https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar",
-  "hash": "72aad2b1a8b5cee0d39f1ad02b6a3c2f1c8fa8a04daead5b6c319afff092cd37",
+  "hash": "20afc72b502d072bc26e95c1e61c12554277a56eb7451df2b92a46d32393bb97",
   "extract_dir": "composer",
   "depends": [
   ],
