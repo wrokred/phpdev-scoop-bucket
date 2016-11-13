@@ -3,7 +3,7 @@
   "version": "1.2.2",
   "licence": "MIT",
   "url": "https://raw.githubusercontent.com/composer/getcomposer.org/master/web/download/1.2.2/composer.phar",
-  "hash": "3e6e491aebaec0fc7f33d2aec904d5f3b7eeea3a31f9b2ef36ba95db9c6e13ba",
+  "hash": "C6AE4E099351233F5F82ADE9738475EEC6587AADF9FFE66FEC4C350B329FBB32",
   "extract_dir": "composer",
   "depends": [
   ],

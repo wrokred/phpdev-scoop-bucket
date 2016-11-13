@@ -11,6 +11,6 @@ Checks for PHP on local. If it's missing run:
 
 `scoop install composer`
 
-## WP-CLI 0.25.1
+## WP-CLI 0.25.0
 
 `scoop install wp-cli`
