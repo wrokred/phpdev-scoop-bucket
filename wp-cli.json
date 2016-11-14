@@ -9,9 +9,9 @@
   ],
   "pre_install": [
   "try {
-      php \"$dir\\installer\" --install-dir=\"$dir\" --filename=wp-cli.phar
+      php \"$dir\\installer\" --install-dir=\"$dir\" --filename=wp-cli-0.25.0.phar
   New-Item $dir\\wp.bat -type file -force -value \"`@ECHO OFF
-  php %~dp0wp-cli.phar %*\"
+  php %~dp0wp-cli-0.25.0.phar %*\"
   }
   catch {
     abort 'PHP is not installed | run scoop install php'
@@ -21,7 +21,6 @@
   ""
   ],
   "bin": [
-  "wp-cli.phar",
   "wp.bat"
   ],
   "notes": ""
