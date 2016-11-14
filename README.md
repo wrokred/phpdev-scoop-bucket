@@ -1,25 +1,40 @@
 # phpdev-scoop-bucket
 Basic Scoop bucket to manage installs needed for modern php development.
 
-## [scoop](https://github.com/lukesampson/scoop)
-`iex (new-object net.webclient).downloadstring('https://get.scoop.sh')`
+## [Scoop](https://github.com/lukesampson/scoop)
+``` powershell
+iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+```
 
 ## Setup
-`scoop bucket add phpdev https://github.com/wrokred/phpdev-scoop-bucket`
+``` powershell
+scoop bucket add phpdev https://github.com/wrokred/phpdev-scoop-bucket
+```
 
 ### issues
 Checks for PHP on local. If it's missing run:
+``` powershell
+scoop install php
+```
 
-`scoop install php`
+## [Composer](https://getcomposer.org/) 1.2.2
 
-## [Composer 1.2.2](https://getcomposer.org/)
+``` powershell
+scoop install composer
+```
+- requires php
 
-`scoop install composer`
+## [WP-CLI](http://wp-cli.org/) 0.25.0
 
-## [WP-CLI 0.25.0](http://wp-cli.org/)
+``` powershell
+scoop install wp-cli
+```
+- requires php
 
-`scoop install wp-cli`
+## [Laravel Installer](https://laravel.com/) 1.3.4
 
-## [Laravel Installer 1.3.4](https://laravel.com/)
-
-`scoop install laravel` - requires composer
+``` powershell
+scoop install laravel
+```
+- requires composer
+- requires php
