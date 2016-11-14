@@ -14,3 +14,7 @@ Checks for PHP on local. If it's missing run:
 ## WP-CLI 0.25.0
 
 `scoop install wp-cli`
+
+## Laravel Installer 1.3.4
+
+`scoop install laravel` - requires composer

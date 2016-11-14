@@ -1,0 +1,32 @@
+{
+  "homepage": "https://laravel.com",
+  "version": "1.3.4",
+  "licence": "MIT",
+  "url": "https://github.com/laravel/installer/archive/master.zip",
+  "hash": "CB5C58EF2E45A8746F33960F930E09A9BAFF96F4DA65363D5E96C92284A74893",
+  "extract_dir": "installer-master",
+  "depends": [
+    "composer"
+  ],
+  "pre_install": [
+    "try {
+  New-Item $dir\\laravel.bat -type file -force -value \"`@ECHO OFF
+  php %~dp0laravel %*\"
+  }
+  catch {
+    abort 'PHP is not installed | run scoop install php'
+    }"
+  ],
+  "post_install": [
+    "try {
+      composer install -d $dir
+  }
+  catch {
+    abort 'Composer is not installed | run scoop install php'
+    }"
+  ],
+  "bin": [
+  "laravel.bat"
+  ],
+  "notes": ""
+}
