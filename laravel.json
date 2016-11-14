@@ -12,6 +12,8 @@
     "try {
   New-Item $dir\\laravel.bat -type file -force -value \"`@ECHO OFF
   php %~dp0laravel %*\"
+  New-Item $dir\\artisan.bat -type file -force -value \"`@ECHO OFF
+  php artisan %*\"
   }
   catch {
     abort 'PHP is not installed | run scoop install php'
@@ -26,7 +28,8 @@
     }"
   ],
   "bin": [
-  "laravel.bat"
+  "laravel.bat",
+  "artisan.bat"
   ],
   "notes": ""
 }
