@@ -36,5 +36,6 @@ scoop install wp-cli
 ``` powershell
 scoop install laravel
 ```
+- Includes artisan alias
 - requires composer
 - requires php
