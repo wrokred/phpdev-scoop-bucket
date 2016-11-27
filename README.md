@@ -39,3 +39,10 @@ scoop install laravel
 - Includes artisan alias
 - requires composer
 - requires php
+
+## [Behat](http://behat.org/) 3.2.2
+
+``` powershell
+scoop install behat
+```
+- requires php

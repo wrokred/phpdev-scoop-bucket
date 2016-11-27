@@ -24,7 +24,7 @@
       composer install -d $dir
   }
   catch {
-    abort 'Composer is not installed | run scoop install php'
+    abort 'Composer is not installed | run scoop install composer'
     }"
   ],
   "bin": [

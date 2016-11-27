@@ -1,0 +1,27 @@
+{
+  "homepage": "http://behat.org/",
+  "version": "3.2.2",
+  "licence": "MIT",
+  "url": "https://github.com/Behat/Behat/releases/download/v3.2.2/behat.phar",
+  "hash": "E80933DE33058E9E4DDB8FB6848C90911CF9B33BDC2DC9497F975DF91D9F9B42",
+  "extract_dir": "composer",
+  "depends": [
+  ],
+  "pre_install": [
+  "try {
+      php \"$dir\\installer\" --install-dir=\"$dir\" --filename=behat.phar
+  New-Item $dir\\behat.bat -type file -force -value \"`@ECHO OFF
+  php %~dp0behat.phar %*\"
+  }
+  catch {
+    abort 'PHP is not installed | run scoop install php'
+    }"
+  ],
+  "post_install": [
+  ""
+  ],
+  "bin": [
+  "behat.bat"
+  ],
+  "notes": ""
+}
