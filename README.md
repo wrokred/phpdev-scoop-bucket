@@ -47,7 +47,7 @@ scoop install behat
 ```
 - requires php
 
-## [Drupal-Console](https://drupalconsole.com/) 1.0.0-rc10
+## [Drupal Console](https://drupalconsole.com/) 1.0.0-rc10
 
 ``` powershell
 scoop install drupal-console
