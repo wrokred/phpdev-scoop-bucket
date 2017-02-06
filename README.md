@@ -24,7 +24,7 @@ scoop install composer
 ```
 - requires php
 
-## [WP-CLI](http://wp-cli.org/) 0.25.0
+## [WP-CLI](http://wp-cli.org/) 1.1.0 
 
 ``` powershell
 scoop install wp-cli
