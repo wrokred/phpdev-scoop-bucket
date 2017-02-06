@@ -2,8 +2,8 @@
   "homepage": "http://behat.org/",
   "version": "3.2.2",
   "licence": "MIT",
-  "url": "https://github.com/Behat/Behat/releases/download/v3.2.2/behat.phar",
-  "hash": "C350953B14E00F0DB97E24E49E68FFBFFAB809EC19BDF40C398FE6645E2D6ACD",
+  "url": "https://github.com/Behat/Behat/releases/download/v3.3.0/behat.phar",
+  "hash": "D99FDF7E7D9459903AE2F9628E0459AB3357A1C93E0B55AD32F60E625C3CB9F7",
   "extract_dir": "composer",
   "depends": [
   ],

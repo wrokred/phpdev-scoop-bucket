@@ -40,7 +40,7 @@ scoop install laravel
 - requires composer
 - requires php
 
-## [Behat](http://behat.org/) 3.3.0
+## [Behat](http://behat.org/) 3.2.2
 
 ``` powershell
 scoop install behat
